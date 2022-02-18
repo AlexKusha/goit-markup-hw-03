@@ -1,0 +1,222 @@
+:root {
+  /* Text-family-list */
+  --main-font--: 'Roboto', sand-serif;
+  --secondary-font--: 'Raleway' sand-serif;
+  /* Colors-list */
+  --dominate-txt-color--: #757575;
+  --mark-color--: #2196f3;
+  --dark-txt--: #212121;
+  --light-txt--: #ffffff;
+  --dark-fone--: #2f303a;
+  --light-fone--: #e5e5e5;
+  --gray-fone--: #f5f4fa;
+}
+/* Global-styles */
+body {
+  font-family: var(--main-font--);
+  color: var(--dominate-txt-color--);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--light-txt--);
+}
+/* Output-styles*/
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover,
+.link:focus {
+  color: var(--mark-color--);
+}
+.list {
+  list-style-type: none;
+}
+.hidden {
+  visibility: hidden;
+}
+/*header-styles*/
+/*logo-styles*/
+.logo-link {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--mark-color--);
+}
+.logo-part {
+  color: var(--dark-txt--);
+}
+
+/*head-link-list*/
+.head-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--dark-txt--);
+}
+.head-link-on {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--mark-color--);
+}
+
+/*head-contact-list*/
+.head-contacts a {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--dominate-txt-color--);
+}
+/*site-title-section-styles*/
+.title-section {
+  background-color: var(--dark-fone--);
+}
+.site-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light-txt--);
+}
+.order-buttons {
+  width: 200px;
+  height: 50px;
+  background: var(--mark-color--);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--light-txt--);
+  border: none;
+  outline: none;
+  background: var(--mark-color--);
+  cursor: pointer;
+}
+.order-buttons:active {
+  background: var(--gray-fone--);
+  color: var(--dark-txt--);
+  border: 1px solid var(--dark-txt--);
+}
+
+/* qualities-section */
+.qualities {
+  color: var(--dark-txt--);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.qualities-discription {
+  line-height: 1.71;
+}
+/* duty-section */
+.duty-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--dark-txt--);
+}
+
+/*members-section*/
+.member-section {
+  background-color: var(--gray-fone--);
+}
+.member-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--dark-txt--);
+}
+.member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--dark-txt--);
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* footer-section*/
+.footer-section {
+  background-color: var(--dark-fone--);
+}
+/*logo-styles*/
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--mark-color--);
+}
+.footer-logo-secondary {
+  color: var(--light-txt--);
+}
+.adress-link {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--light-txt--);
+}
+.footer-links {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--dominate-txt-color--);
+}
+.footer-links:hover,
+.footer-links:focus {
+  color: var(--mark-color--);
+}
+/*portfolio-main-section*/
+.main-section {
+}
+.filter-button {
+  width: 128px;
+  height: 28px;
+  background: var(--gray-fone--);
+  border-radius: 4px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  align-items: center;
+  text-align: center;
+  background: var(--gray-fone--);
+  color: var(--dark-txt--);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.filter-button:focus,
+.filter-button:hover,
+.filter-button:active {
+  background: var(--mark-color--);
+  color: var(--light-txt--);
+  border: none;
+}
+.project-names {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--dark-txt--);
+}
+.project-types {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--dominate-txt-color--);
+}
