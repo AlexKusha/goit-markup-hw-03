@@ -26,6 +26,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Output-styles*/
 h1,
 h2,
@@ -37,6 +41,9 @@ p,
 ul {
   margin: 0px;
   padding: 0px;
+}
+img {
+  display: block;
 }
 .link {
   text-decoration: none;
@@ -60,6 +67,7 @@ ul {
   display: flex;
   align-items: center;
   margin-top: 24px;
+  margin-bottom: 25px;
 }
 .nav-elements {
   display: flex;
@@ -168,7 +176,6 @@ ul {
 /* qualities-section */
 .qualities-list {
   display: flex;
-  margin-top: 94px;
 }
 .qualities-items {
   width: 270px;
@@ -188,15 +195,13 @@ ul {
   margin-top: 10px;
 }
 /* duty-section */
-.duty-section {
-  margin-top: 94px;
-}
 .duty-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   color: var(--dark-txt--);
+  margin-top: 94px;
 }
 .duti-list {
   display: flex;
@@ -211,8 +216,6 @@ ul {
 /*members-section*/
 .member-section {
   background-color: var(--gray-fone--);
-  margin-top: 94px;
-  padding-top: 94px;
 }
 .member-title {
   font-weight: 700;
@@ -253,7 +256,6 @@ ul {
 /* footer-section*/
 .footer-section {
   background-color: var(--dark-fone--);
-  margin-top: 94px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -293,6 +295,17 @@ ul {
 }
 /*portfolio-main-section*/
 .main-section {
+  border-top: 1px solid #ececec;
+}
+.button-list {
+  display: flex;
+  justify-content: center;
+}
+.button-item {
+  margin-left: 8px;
+}
+.button-item:first-child {
+  margin-left: 0px;
 }
 .filter-button {
   width: 128px;
@@ -320,15 +333,40 @@ ul {
   color: var(--light-txt--);
   border: none;
 }
+/* project-list */
+.project-list {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.project-item {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.project-item:nth-child(3n + 1) {
+  margin-left: 0px;
+}
+.project-item:nth-child(-n + 3) {
+  margin-top: 0px;
+}
+.project-discription {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding-top: 20px;
+}
 .project-names {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--dark-txt--);
+  margin-left: 24px;
 }
 .project-types {
   font-size: 16px;
   line-height: 1.87;
   color: var(--dominate-txt-color--);
+  margin-top: 4px;
+  margin-left: 24px;
+  margin-bottom: 20px;
 }
