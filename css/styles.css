@@ -64,12 +64,13 @@ img {
 }
 
 /*header-styles*/
-
+.header-section {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .header-conrtainer {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 .nav-elements {
   display: flex;
@@ -134,7 +135,6 @@ img {
 /*site-title-section-styles*/
 .title-section {
   background-color: var(--dark-fone--);
-  margin-top: 25px;
   padding: 200px 0px;
 }
 .site-title {
