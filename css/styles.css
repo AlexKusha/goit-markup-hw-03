@@ -197,13 +197,15 @@ img {
   margin-top: 10px;
 }
 /* duty-section */
+.duti-section {
+  padding-top: 0px;
+}
 .duty-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   color: var(--dark-txt--);
-  margin-top: 94px;
 }
 .duti-list {
   display: flex;
@@ -310,8 +312,7 @@ img {
   margin-left: 0px;
 }
 .filter-button {
-  width: 128px;
-  height: 28px;
+  padding: 6px 22px;
   background: var(--gray-fone--);
   border-radius: 4px;
   position: relative;
@@ -355,6 +356,8 @@ img {
   border: 1px solid #eeeeee;
   border-top: none;
   padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 .project-names {
   font-weight: 700;
@@ -362,13 +365,13 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--dark-txt--);
-  margin-left: 24px;
 }
 .project-types {
   font-size: 16px;
   line-height: 1.87;
   color: var(--dominate-txt-color--);
   margin-top: 4px;
-  margin-left: 24px;
-  margin-bottom: 20px;
+}
+.project-link {
+  cursor: pointer;
 }
